@@ -72,12 +72,12 @@ welcomeToMéxico();
 welcomeToMéxico("Perro");
 
 // parametros con nombre
-const welcomeToUTT = (user = 'Invitado', city = 'México') =>{
-                        console.log(`Bienvenido ${ user } de ${ city}`)
+const welcomeToUTT = (user = 'Invitado', city = 'México') => {
+                        console.log(`Bienvenido ${ user } de ${ city }`)
                     }
 
 welcomeToUTT();
-welcomeToUTT('Lalo' , 'Huamantla');
-welcomeToUTT(city = 'San Andres', user ('CJ'));
+welcomeToUTT('CJ' , 'San andres');
+welcomeToUTT(city = 'San Andres', user = 'CJ');
 
     
