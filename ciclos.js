@@ -30,3 +30,12 @@ const numbers = [1,2,3,4,5,6];
 for(let i = 0; i < numbers.length;i++){
     console.log(numbers[i]);
 }
+
+// for ... of
+for(const item in numbers){
+    console.log(item);
+}
+
+for(const letter of name){
+    console.log(letter);
+}
